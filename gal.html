@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>गैलरी- प्रीती(लकी) कालरा-विकिपीडिया</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous"><meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<style>
+.mySlides {display:none;}
+
+</style>
+</head>
+<body style="background: url(50.png);background-size: cover;">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <a class="navbar-brand" href="index.html"><i class="fas fa-home"></i> दिल्ली(home)</a>
+    <a class="navbar-brand" href="hbd.html"><i class="fas fa-birthday-cake"></i> शुभकामनाएँ</a>
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li><a class="navbar-brand" href="gal.html"><i class="fas fa-images"></i> गैलरी</a></li>
+    </ul>
+   
+  </div>
+</nav><h2 class="w3-center">जन्मदिन की शुभकामनाएं PK <i class="fas fa-smile-beam"></i> <i class="fas fa-birthday-cake"></i></h2>
+<div class="container">
+  <div class="thumbnail" >
+<div  class="w3-content w3-display-container">
+  <img class="mySlides" src="7.png" style="width:100%"><img class="mySlides" src="3.png" style="width:100%"><img class="mySlides" src="4.png" style="width:100%"><img class="mySlides" src="1.png" style="width:100%"> <img class="mySlides" src="5.png" style="width:100%">
+  <img class="mySlides" src="2.png" style="width:100%">
+ 
+  
+  
+  <img class="mySlides" src="6.png" style="width:100%">
+  
+  
+  
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+
+</div>
+</div></div></div>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+</body>
+</html>

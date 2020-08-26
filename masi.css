@@ -1,0 +1,11 @@
+.navbar navbar-expand-lg navbar-light bg-light
+{
+  background-color: red;
+h5
+{
+	color: purple;
+}
+.jumbotron
+{
+	border: solid 1px black;
+}
